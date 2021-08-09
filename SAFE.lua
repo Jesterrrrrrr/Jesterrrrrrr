@@ -13,7 +13,7 @@ function setvalue(address,flags,value) local tt={} tt[1]={} tt[1].address=addres
 
 
 
-Date = "20201205" --Change Date  
+Date = "20221205" --Change Date  
 date = os.date("%Y%m%d") 
 if date >= Date then 
 gg.makeRequest("https://pastebin.com/raw/euwrQMxk") 
